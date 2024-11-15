@@ -1,0 +1,29 @@
+{
+    "warehouse_url":
+    [
+        "https://wes-agv-portal-gateway.iherbscs.net/api/Fleet/liveUpdates",
+        "https://wes-agv-portal-gateway.atlanta.iherb.net/api/Fleet/liveUpdates"
+    ],
+    "cmd":
+    [
+        ["e",              ""],
+        ["",               "./watch_latest_exec_log.sh || ./watch_latest_log.sh"],
+        ["rst_e",          "systemctl restart agv_x2_fw || systemctl restart agv_exec"],
+        ["kill_e",         "killall -9 agv_x2_fw || killall -9 agv_executive"],
+        ["pwrcycle_e",     "systemctl stop agv_x2_fw || systemctl stop agv_exec; sync; /usr/sbin/i2cset -y 2 0x20 0x00 0x08;nohup /usr/sbin/i2cset -y 2 0x20 0x02"],
+        ["stop_e",         "systemctl stop agv_x2_fw || systemctl stop agv_exec"],
+        ["start_e",        "systemctl start agv_x2_fw || systemctl start agv_exec"],
+        ["log_e",          "cat /var/log/agv_x2_fw.log || cat /var/log/agv_x2_executive.log"],
+        ["log0_e",         "cat /var/log/agv_x2_fw.log.0 || cat /var/log/agv_x2_executive.log.0"],
+        ["log1_e",         "cat /var/log/agv_x2_fw.log.1 || cat /var/log/agv_x2_executive.log.1"],
+        ["log2_e",         "cat /var/log/agv_x2_fw.log.2 || cat /var/log/agv_x2_executive.log.2"],
+        ["log3_e",         "cat /var/log/agv_x2_fw.log.3 || cat /var/log/agv_x2_executive.log.3"],
+        ["log4_e",         "cat /var/log/agv_x2_fw.log.4 || cat /var/log/agv_x2_executive.log.4"],
+        ["log5_e",         "cat /var/log/agv_x2_fw.log.5 || cat /var/log/agv_x2_executive.log.5"],
+        ["log6_e",         "cat /var/log/agv_x2_fw.log.6 || cat /var/log/agv_x2_executive.log.6"],
+        ["log7_e",         "cat /var/log/agv_x2_fw.log.7 || cat /var/log/agv_x2_executive.log.7"],
+        ["log8_e",         "cat /var/log/agv_x2_fw.log.8 || cat /var/log/agv_x2_executive.log.8"],
+        ["log9_e",         "cat /var/log/agv_x2_fw.log.9 || cat /var/log/agv_x2_executive.log.9"],
+        ["log10_e",        "cat /var/log/agv_x2_fw.log.10 || cat /var/log/agv_x2_executive.log.10"]
+    ]
+}

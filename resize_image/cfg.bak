@@ -1,0 +1,30 @@
+{
+    "app": {
+        "size": {
+            "w": 682,
+            "h": 225
+        },
+        "pos": {
+            "x": 939,
+            "y": 552
+        },
+        "input": "e:/Learning/00_Git/00_Learning/02_Python/02_Tools/resize_image/INPUT_DIR",
+        "output": "e:/Learning/00_Git/00_Learning/02_Python/02_Tools/resize_image/OUTPUT_DIR"
+    },
+    "image": {
+        "image_width": 750
+    },
+    "author": [
+        false,
+        "YODY.VN"
+    ],
+    "logo": {
+        "logo_enable": false,
+        "logo_width": 150,
+        "logo_file": "E:/Learning/00_Git/00_Learning/02_Python/02_Tools/resize_image/logo/yody.png",
+        "pos": {
+            "x": 0,
+            "y": 0
+        }
+    }
+}

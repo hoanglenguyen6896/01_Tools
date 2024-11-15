@@ -1,0 +1,126 @@
+{
+    "fw":
+    {
+        "timeout":              10,
+        "fw_cmd":
+        {
+            "p71":              "tail -n 25 emergency.log/p71_extra-\\(null\\)",
+            "wtclog":           "./watch_latest_exec_log.sh || ./watch_latest_log.sh",
+            "rst":              "systemctl restart agv_x2_fw || systemctl restart agv_exec",
+            "kill":             "killall -9 agv_x2_fw || killall -9 agv_executive",
+            "pwrcycle":         "systemctl stop agv_x2_fw || systemctl stop agv_exec; sync; /usr/sbin/i2cset -y 2 0x20 0x00 0x08;nohup /usr/sbin/i2cset -y 2 0x20 0x02"
+        }
+    },
+    "sw":
+    {
+        "timeout":              10,
+        "warehouse":            "Elgin",
+        "Elgin":
+        {
+            "cmd":
+            {
+                "retry":        "https://wes-agv-fleet.iherbscs.net/api/Bots/",
+                "retry_end":    "/commands/retry-task",
+                "enable":       "https://wes-agv-iherbdriver.iherbscs.net/api/Bots/",
+                "enable_end":   "/enable",
+                "disable":      "https://wes-agv-iherbdriver.iherbscs.net/api/Bots/",
+                "disable_end":  "/disable",
+                "unfault":      "https://wes-agv-portal-gateway.iherbscs.net/api/Fleet/Bots/",
+                "unfault_end":  "/Unfault",
+                "unpause":      "https://wes-agv-fleet.iherbscs.net/api/Bots/unpause/",
+                "unpause_end":  "",
+                "pause":        "https://wes-agv-fleet.iherbscs.net/api/Bots/pause/",
+                "pause_end":    "",
+                "task":         "https://wes-agv-fleet.iherbscs.net/api/Bots/",
+                "task_end":     "/currentTasks",
+                "start_charge": "https://wes-agv-portal-gateway.iherbscs.net/api/Fleet/Bots/",
+                "start_ch_end": "/SendBotToCharger",
+                "stop_charge":  "https://wes-agv-portal-gateway.iherbscs.net/api/fleet/bots/",
+                "stop_ch_end":  "/stopCharging",
+                "replan_start": "https://wes-agv-fleet.iherbscs.net/api/TrafficControl/replanRequest?botId=",
+                "replan_end":   "",
+                "setidle_start":"https://wes-agv-packwall.iherbscs.net/api/packstations/",
+                "setidle_end":  "/setidle",
+                "rfHMI_start":  "https://wes-agv-packwall.iherbscs.net/api/packstations/",
+                "rfHMI_end":    "/refreshhmi"
+            },
+            "query":
+            {
+				"field":        "https://wes-agv-portal-gateway.iherbscs.net/api/Field",
+                "bot_live":     "https://wes-agv-portal-gateway.iherbscs.net/api/Fleet/liveUpdates",
+                "connect":      "https://wes-agv-portal-gateway.iherbscs.net/api/bots/connected",
+                "estop":        "https://wes-agv-portal-gateway.iherbscs.net/api/bots/emergencystop",
+                "packwall":     "https://wes-agv-packwall.iherbscs.net/api/packstations"
+            }
+        },
+        "Atlanta":
+        {
+            "cmd":
+            {   "retry":        "https://wes-agv-fleet.atlanta.iherb.net/api/Bots/",
+                "retry_end":    "/commands/retry-task",
+                "enable":       "https://wes-agv-iherbdriver.atlanta.iherb.net/api/Bots/",
+                "enable_end":   "/enable",
+                "disable":      "https://wes-agv-iherbdriver.atlanta.iherb.net/api/Bots/",
+                "disable_end":  "/disable",
+                "unfault":      "https://wes-agv-portal-gateway.atlanta.iherb.net/api/Fleet/Bots/",
+                "unfault_end":  "/Unfault",
+                "unpause":      "https://wes-agv-fleet.atlanta.iherb.net/api/Bots/unpause/",
+                "unpause_end":  "",
+                "pause":        "https://wes-agv-fleet.atlanta.iherb.net/api/Bots/pause/",
+                "pause_end":    "",
+                "task":         "https://wes-agv-fleet.atlanta.iherb.net/api/Bots/",
+                "task_end":     "/currentTasks",
+                "start_charge": "https://wes-agv-portal-gateway.atlanta.iherb.net/api/Fleet/Bots/",
+                "start_ch_end": "/SendBotToCharger",
+                "stop_charge":  "https://wes-agv-portal-gateway.atlanta.iherb.net/api/fleet/bots/",
+                "stop_ch_end":  "/stopCharging",
+                "replan_start": "https://wes-agv-fleet.atlanta.iherb.net/api/TrafficControl/replanRequest?botId=",
+                "replan_end":   "",
+                "setidle_start":"https://wes-agv-packwall.atlanta.iherb.net/api/packstations/",
+                "setidle_end":  "/setidle",
+                "rfHMI_start":  "https://wes-agv-packwall.atlanta.iherb.net/api/packstations/",
+                "rfHMI_end":    "/refreshhmi"
+            },
+            "query":
+            {
+				"field":        "https://wes-agv-portal-gateway.atlanta.iherb.net/api/Field",
+                "bot_live":     "https://wes-agv-portal-gateway.atlanta.iherb.net/api/Fleet/liveUpdates",
+                "connect":      "https://wes-agv-portal-gateway.atlanta.iherb.net/api/bots/connected",
+                "estop":        "https://wes-agv-portal-gateway.atlanta.iherb.net/api/bots/emergencystop",
+                "packwall":     "https://wes-agv-packwall.atlanta.iherb.net/api/packstations"
+            }
+
+        }
+    },
+    "keep_windows_from_lock":   true,
+    "alert":
+    {
+        "sound":
+        {
+            "Fault":            "fault.wav",
+            "Connection":       "connection.wav",
+            "Pause":            "mute.wav",
+            "Idle":             "idle.wav",
+            "Charging":         "mute.wav",
+            "Ignore":           "mute.wav",
+            "Crash":            "threadcrash.wav",
+            "N/A 7":            "mute.wav",
+            "Network":          "network.wav"
+        },
+        "idle_threshold":       5
+    },
+    "limitation":
+    {
+        "bat_lvl":              29,
+        "idle_time":            60,
+        "connection_time":      30,
+        "network_time":         30
+    },
+    "reference":
+    {
+        "location_idle":        ["Drive Aisle", "Storage", "Workstation", "Queue Out", "Charger",  "Maintenance"],
+        "all_location":         ["Drive Aisle", "Obstacle", "Storage", "Queue", "Maintenance", "Workstation", "Charger", "Queue In", "Queue Out"],
+        "status_idle":          ["Busy", "Pending"],
+        "all_status":           ["Available", "Reserved", "Busy", "Charging", "Pending", "Fault", "N/A 7"]
+    }
+}

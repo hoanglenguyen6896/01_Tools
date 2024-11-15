@@ -1,0 +1,10 @@
+# Enter power save mode
+curl http://172.16.28.123:8081/v1/debugMode -X PUT --data '{"enable":"true"}'
+curl http://172.16.28.123:8081/v1/sup/powerstatus -X PUT --data '{"bits":"1B"}'
+
+
+# Exit power save mode
+curl http://172.16.28.25:8081/v1/debugMode -X PUT --data '{"enable":"true"}'
+curl http://172.16.28.25:8081/v1/sup/powerstatus -X PUT --data '{"bits":"1F"}'
+curl http://172.16.28.25:8081/v1/motion/reset -X POST
+curl http://172.16.28.25:8081/v1/debugMode -X PUT --data '{"enable":"false"}'
