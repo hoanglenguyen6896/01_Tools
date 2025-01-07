@@ -1,4 +1,0 @@
-Pillow
-piexif
-unidecode
-PyQt6

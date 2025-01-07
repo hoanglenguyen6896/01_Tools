@@ -8,5 +8,5 @@ __pycache__/
 
 **/OUTPUT_DIR
 **/OUT_DIR
-resize_image/__tmp.py
-resize_image/__common.py
+00_resize_image/__tmp.py
+00_resize_image/__common.py
