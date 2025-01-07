@@ -5,3 +5,8 @@ __pycache__/
 
 # C extensions
 *.so
+
+**/OUTPUT_DIR
+**/OUT_DIR
+resize_image/__tmp.py
+resize_image/__common.py

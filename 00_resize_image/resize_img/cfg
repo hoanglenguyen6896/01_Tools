@@ -8,8 +8,8 @@
             "x": 661,
             "y": 272
         },
-        "input": "e:/Learning/00_Git/01_Tools/resize_image/INPUT_DIR",
-        "output": "e:/Learning/00_Git/01_Tools/resize_image/OUTPUT_DIR"
+        "input": "E:/Learning/00_Git/01_Tools/00_resize_image/resize_img/INPUT_DIR",
+        "output": "E:/Learning/00_Git/01_Tools/00_resize_image/resize_img/OUTPUT_DIR"
     },
     "image": {
         "image_width": 750
