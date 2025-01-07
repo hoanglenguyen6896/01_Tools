@@ -46,6 +46,10 @@ class ImageWithPIL:
 		if not NO_ERR:
 			return None
 
+		if not os.path.isdir(self.input_dir):
+			show_err("Input directory does not exist")
+			return None
+
 		""" Return err if there aren't any subdir in indir """
 		self.input_subdirs = next(os.walk(self.input_dir))[1]
 		if not self.input_subdirs:

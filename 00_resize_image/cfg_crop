@@ -8,23 +8,18 @@
             "x": 874,
             "y": 500
         },
-        "input": "E:/Learning/00_Git/01_Tools/00_resize_image/resize_img/INPUT_DIR",
-        "output": "E:/Learning/00_Git/01_Tools/00_resize_image/resize_img"
+        "input": "e:/Learning/00_Git/01_Tools/00_resize_image/INPUT_DIR",
+        "output": "e:/Learning/00_Git/01_Tools/00_resize_image/OUT_PUT_DIR"
     },
     "image": {
-        "image_width": 750
+        "image_width": 800,
+        "image_height": 500
     },
     "author": [
         false,
         "Name"
     ],
     "logo": {
-        "logo_enable": false,
-        "logo_width": 150,
-        "logo_file": "",
-        "pos": 0
-    },
-    "logo_2": {
         "logo_enable": false,
         "logo_width": 150,
         "logo_file": "",

@@ -12,21 +12,17 @@ from PyQt6.QtGui import *
 from common import *
 
 import UI
-import img_resize
-import file_ops
-import qt_thread
+import tools.img_resize
 
 class ResizeImgApp():
-	def __init__(self, config, all_tab: UI.Ui_Widget) -> None:
+	def __init__(self, config, all_tab: UI.Ui_Widget, threadpool) -> None:
 		self.RESIZE_TAB = all_tab
 		self.config = config
 		# Create threadpool for multi thread
-		self.threadpool = QThreadPool()
-		self.threadpool.setMaxThreadCount(MAX_THREAD_COUNT)
-		self._create_main_window()
+		self.threadpool = threadpool
 
 
-	def _create_main_window(self):
+	def start(self):
 		# input
 		self._input_widgets()
 		# output
@@ -255,7 +251,7 @@ class ResizeImgApp():
 					 None,
 					 self.RESIZE_TAB.comboBox_logo_pos_2.currentIndex())
 
-			img_process = img_resize.ImageWithPIL(
+			img_process = tools.img_resize.ImageWithPIL(
 				input_dir=self.RESIZE_TAB.lineEdit_input.text(),
 				output_dir=self.RESIZE_TAB.lineEdit_output.text(),
 				author_name=_aut,
@@ -263,7 +259,6 @@ class ResizeImgApp():
 				logodata=logo_data,
 				logodata_2=logo_data_2,
 			)
-			return
 			file_err = img_process.resize_all()
 			if file_err:
 				str_file = "File that can't be resized:"

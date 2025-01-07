@@ -19,6 +19,9 @@ from PyQt6.QtCore import *
 from PyQt6.QtGui import *
 
 IMG_DEFAULT_WIDTH = 750
+IMG_DEFAULT_HEIGHT=500
+IMG_DEFAULT_CROP_WIDTH = 800
+IMG_DEFAULT_CROP_HEIGHT=500
 LOGO_DEFAULT_WIDTH = 150
 
 MAX_THREAD_COUNT=30
@@ -58,36 +61,6 @@ AUTH_ENABLE=0
 AUTH_NAME=1
 
 
-DEFAULT_CFG = {
-	"app": {
-		"size": {
-			"w": 100,
-			"h": 100
-		},
-		"pos": {
-			"x": 661,
-			"y": 272
-		},
-		"input": IN_IMG_DIR,
-		"output": OUT_IMG_DIR,
-	},
-	"image": {
-		"image_width":  IMG_DEFAULT_WIDTH
-	},
-	"author": [False, "Name"],
-	"logo": {
-		"logo_enable": False,
-		"logo_width":   LOGO_DEFAULT_WIDTH,
-		"logo_file": None,
-		"pos": 0
-	},
-	"logo_2": {
-		"logo_enable": False,
-		"logo_width":   LOGO_DEFAULT_WIDTH,
-		"logo_file": None,
-		"pos": 0
-	}
-}
 
 NO_ERR = True
 
