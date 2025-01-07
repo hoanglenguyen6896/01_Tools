@@ -33,9 +33,15 @@ class ImageWithPIL:
 		self.logodata = (logodata, logodata_2)
 
 		""" Create out if need """
-		NO_ERR = safe_remove(self.output_dir)
+		if (os.path.realpath(self.output_dir) == os.path.realpath(SCRIPT_ABS_PATH)):
+			show_err("Output path cannot be set to script folder, please try again")
+			return None
+		else:
+			NO_ERR = safe_remove(self.output_dir)
+
 		if not NO_ERR:
 			return None
+
 		NO_ERR = safe_mkdir(self.output_dir)
 		if not NO_ERR:
 			return None

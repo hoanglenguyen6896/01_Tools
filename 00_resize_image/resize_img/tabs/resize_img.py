@@ -263,6 +263,7 @@ class ResizeImgApp():
 				logodata=logo_data,
 				logodata_2=logo_data_2,
 			)
+			return
 			file_err = img_process.resize_all()
 			if file_err:
 				str_file = "File that can't be resized:"

@@ -34,8 +34,9 @@ IMG_EXIF_DES = {
     "Author_utf16":   40093, # Author string encode utf-16
     "Copyright":      33432, # Copyright
 }
-
 SCRIPT_ABS_PATH = os.path.dirname(os.path.abspath(__file__)).replace("\\", "/")
+
+print(SCRIPT_ABS_PATH)
 
 IN_IMG_DIR = os.path.join(SCRIPT_ABS_PATH, "INPUT_DIR").replace("\\", "/")
 OUT_IMG_DIR = os.path.join(SCRIPT_ABS_PATH, "OUTPUT_DIR").replace("\\", "/")
