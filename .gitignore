@@ -6,7 +6,5 @@ __pycache__/
 # C extensions
 *.so
 
-**/OUTPUT_DIR
-**/OUT_DIR
 00_resize_image/__tmp.py
 00_resize_image/__common.py
