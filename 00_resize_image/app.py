@@ -41,7 +41,7 @@ DEFAULT_CFG_RESIZE = {
 			"y": 272
 		},
 		"input": os.path.join(SCRIPT_ABS_PATH, 'INPUT_DIR').replace("\\", "/"),
-		"output": os.path.join(SCRIPT_ABS_PATH, 'OUT_PUT_DIR').replace("\\", "/"),
+		"output": os.path.join(SCRIPT_ABS_PATH, 'OUTPUT_DIR').replace("\\", "/"),
 	},
 	"image": {
 		"image_width":  IMG_DEFAULT_WIDTH
@@ -72,7 +72,7 @@ DEFAULT_CFG_CROP = {
 			"y": 272
 		},
 		"input": os.path.join(SCRIPT_ABS_PATH, 'INPUT_DIR').replace("\\", "/"),
-		"output": os.path.join(SCRIPT_ABS_PATH, 'OUT_PUT_DIR').replace("\\", "/"),
+		"output": os.path.join(SCRIPT_ABS_PATH, 'OUTPUT_DIR').replace("\\", "/"),
 	},
 	"image": {
 		"image_width":  IMG_DEFAULT_CROP_WIDTH,
