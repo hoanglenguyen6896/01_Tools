@@ -12,7 +12,7 @@ from PyQt6.QtGui import *
 from common import *
 
 import UI
-import tools.img_crop
+import tools.img_tools
 
 class CropImgApp():
 	def __init__(self, config, all_tab: UI.Ui_Widget, threadpool) -> None:
@@ -140,7 +140,7 @@ class CropImgApp():
 		# Initial check value from config
 		def logo_checkbox_change():
 			state = False
-			if self.CROP_TAB.checkBox_logo.checkState() == Qt.CheckState.Checked:
+			if self.CROP_TAB.checkBox_logo_Crop.checkState() == Qt.CheckState.Checked:
 				state = True
 			# text logo path
 			self.CROP_TAB.lineEdit_logo_path_Crop.setEnabled(state)
@@ -155,10 +155,10 @@ class CropImgApp():
 			# combobox logo pos
 			self.CROP_TAB.comboBox_logo_pos_Crop.setEnabled(state)
 		if self.config[LOGO]["logo_enable"]:
-			self.CROP_TAB.checkBox_logo.setCheckState(Qt.CheckState.Checked)
+			self.CROP_TAB.checkBox_logo_Crop.setCheckState(Qt.CheckState.Checked)
 			init_state = True
 		else:
-			self.CROP_TAB.checkBox_logo.setCheckState(Qt.CheckState.Unchecked)
+			self.CROP_TAB.checkBox_logo_Crop.setCheckState(Qt.CheckState.Unchecked)
 			init_state = False
 		self.CROP_TAB.lineEdit_logo_path_Crop.setEnabled(init_state)
 		self.CROP_TAB.pushButton_browse_logo_Crop.setEnabled(init_state)
@@ -167,7 +167,7 @@ class CropImgApp():
 		self.CROP_TAB.label_logo_pos_Crop.setEnabled(init_state)
 		self.CROP_TAB.comboBox_logo_pos_Crop.setEnabled(init_state)
 
-		self.CROP_TAB.checkBox_logo.stateChanged.connect(logo_checkbox_change)
+		self.CROP_TAB.checkBox_logo_Crop.stateChanged.connect(logo_checkbox_change)
 		self.CROP_TAB.lineEdit_logo_path_Crop.setText(self.config[LOGO]["logo_file"])
 		self.CROP_TAB.pushButton_browse_logo_Crop.clicked.connect(browse_path)
 		self.CROP_TAB.spinBox_logo_width_Crop.setValue(self.config[LOGO]["logo_width"])
@@ -241,7 +241,7 @@ class CropImgApp():
 				_aut = self.CROP_TAB.lineEdit_author_name_Crop.text()
 			logo_data = LogoData(None, None, None, None)
 			# logo_data_2 = LogoData(None, None, None, None)
-			if self.CROP_TAB.checkBox_logo.checkState() == Qt.CheckState.Checked:
+			if self.CROP_TAB.checkBox_logo_Crop.checkState() == Qt.CheckState.Checked:
 				logo_data = LogoData(self.CROP_TAB.lineEdit_logo_path_Crop.text(),
 					 self.CROP_TAB.spinBox_logo_width_Crop.value(),
 					 None,
@@ -252,14 +252,15 @@ class CropImgApp():
 			# 		 None,
 			# 		 self.CROP_TAB.comboBox_logo_pos_2.currentIndex())
 
-			img_process = tools.img_crop.ImageCropWithPIL(
+			img_process = tools.img_tools.ImageToolsWithPIL(
 				input_dir=self.CROP_TAB.lineEdit_input_Crop.text(),
 				output_dir=self.CROP_TAB.lineEdit_output_Crop.text(),
 				author_name=_aut,
 				cfg_img_width=self.CROP_TAB.spinBox_img_width_Crop.value(),
 				cfg_img_height=self.CROP_TAB.spinBox_img_height_Crop.value(),
-				logodata=logo_data,
+				logodata=(logo_data, ),
 				# logodata_2=logo_data_2,
+				action=CROP
 			)
 			file_err = img_process.resize_all()
 			if file_err:

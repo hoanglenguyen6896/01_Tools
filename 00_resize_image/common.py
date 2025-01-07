@@ -60,7 +60,8 @@ AUTH="author"
 AUTH_ENABLE=0
 AUTH_NAME=1
 
-
+RESIZE='resize'
+CROP='crop'
 
 NO_ERR = True
 

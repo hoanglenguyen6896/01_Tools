@@ -12,7 +12,7 @@ from PyQt6.QtGui import *
 from common import *
 
 import UI
-import tools.img_resize
+import tools.img_tools
 
 class ResizeImgApp():
 	def __init__(self, config, all_tab: UI.Ui_Widget, threadpool) -> None:
@@ -251,13 +251,13 @@ class ResizeImgApp():
 					 None,
 					 self.RESIZE_TAB.comboBox_logo_pos_2.currentIndex())
 
-			img_process = tools.img_resize.ImageWithPIL(
+			img_process = tools.img_tools.ImageToolsWithPIL(
 				input_dir=self.RESIZE_TAB.lineEdit_input.text(),
 				output_dir=self.RESIZE_TAB.lineEdit_output.text(),
 				author_name=_aut,
-				img_width=self.RESIZE_TAB.spinBox_img_width.value(),
-				logodata=logo_data,
-				logodata_2=logo_data_2,
+				cfg_img_width=self.RESIZE_TAB.spinBox_img_width.value(),
+				logodata=(logo_data, logo_data_2),
+				action=RESIZE
 			)
 			file_err = img_process.resize_all()
 			if file_err:
