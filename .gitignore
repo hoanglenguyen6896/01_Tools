@@ -9,3 +9,4 @@ __pycache__/
 00_resize_image/__tmp.py
 00_resize_image/__common.py
 00_resize_image/cfg*
+**/OUTPUT*

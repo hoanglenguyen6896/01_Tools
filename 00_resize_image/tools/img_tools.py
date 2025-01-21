@@ -143,16 +143,22 @@ class ImageToolsWithPIL:
 	def _enlarge(self, image: Image.Image, w_or_h):
 		img = None
 		if w_or_h == 'w':
-			_ratio_w = self.cfg_img_width/image.width
+			_ratio = self.cfg_img_width/image.width
 			img = image.resize((self.cfg_img_width,
-									int(_ratio_w*image.height)),
+									int(_ratio*image.height)),
 									Image.Resampling.LANCZOS)
 		else:
-			_ratio_h = self.cfg_img_height/image.height
-			img = image.resize((int(_ratio_h*image.width),
+			_ratio = self.cfg_img_height/image.height
+			img = image.resize((int(_ratio*image.width),
 									self.cfg_img_height),
 									Image.Resampling.LANCZOS)
 		return img
+
+	def _reduce(self, image: Image.Image, w_or_h = 'w'):
+		if w_or_h == 'w':
+			image.thumbnail((self.cfg_img_width, 9999))
+		else:
+			image.thumbnail((9999, self.cfg_img_height))
 
 	def _crop(self, image: Image.Image, w_or_h):
 		def _crop_tup(left, right, top, bottom):
@@ -216,7 +222,10 @@ class ImageToolsWithPIL:
 			=    >    Crop H
 			=    <    Enlarge H Crop W
 			>    =    Crop W
-			>    >    Crop W    Crop H
+			>    >    w/h vs tw/th
+								if > then Resize as h, crop w
+								if < then Resize as w, crop h
+								if = then Resize as w
 			>    <    Enlarge H Crop W
 			<    =    Enlarge W Crop H
 			<    >    Enlarge W Crop H
@@ -226,7 +235,7 @@ class ImageToolsWithPIL:
 			if _w_list[EQUAL] and _h_list[EQUAL]:
 				# pr("pass")
 				pass
-			elif (_w_list[EQUAL] and _h_list[BIG]) or (_w_list[BIG] and _h_list[EQUAL]) or (_w_list[BIG] and _h_list[BIG]):
+			elif (_w_list[EQUAL] and _h_list[BIG]) or (_w_list[BIG] and _h_list[EQUAL]):
 				# pr("Crop wh")
 				rgb_img = self._crop(image=rgb_img, w_or_h='wh')
 			elif (_w_list[EQUAL] and _h_list[LESS]) or (_w_list[BIG] and _h_list[LESS]):
@@ -237,6 +246,20 @@ class ImageToolsWithPIL:
 				# pr("Enlarge w, Crop wh")
 				rgb_img = self._enlarge(image=rgb_img, w_or_h='w')
 				rgb_img = self._crop(image=rgb_img, w_or_h='wh')
+			elif (_w_list[BIG] and _h_list[BIG]):
+				_img_rat = rgb_img.width/rgb_img.height
+				_target_rat = self.cfg_img_width/self.cfg_img_height
+				# when w/h > tW/tH, after resize w > targetW, >> reduce as h then crop w
+				if _img_rat > _target_rat:
+					self._reduce(rgb_img, 'h')
+					rgb_img = self._crop(image=rgb_img, w_or_h='w')
+				# when w/h < tW/tH, after resize h > targeth, >> reduce as w then crop h
+				elif _img_rat < _target_rat:
+					self._reduce(rgb_img, 'w')
+					rgb_img = self._crop(image=rgb_img, w_or_h='h')
+				else: # incase w/h =tw/th
+					self._reduce(rgb_img, 'w')
+				pass
 			else:
 				# pr("Enlarge w, check enlarge h, Crop wh")
 				rgb_img = self._enlarge(image=rgb_img, w_or_h='w')
@@ -246,13 +269,11 @@ class ImageToolsWithPIL:
 		elif self.action == RESIZE:
 			# Enlarge
 			if rgb_img.width < self.cfg_img_width:
-				_ratio = self.cfg_img_width/rgb_img.width
-				rgb_img = rgb_img.resize((self.cfg_img_width,
-										int(_ratio*rgb_img.height)),
-										Image.Resampling.LANCZOS)
+				rgb_img = self._enlarge(image=rgb_img, w_or_h='w')
 			# Reduce
 			elif rgb_img.width > self.cfg_img_width:
-				rgb_img.thumbnail((self.cfg_img_width, 9999))
+				# rgb_img.thumbnail((self.cfg_img_width, 9999))
+				self._reduce(rgb_img, 'w')
 		try:
 			exifdata = piexif.load(rgb_img.info["exif"])
 		except KeyError:
