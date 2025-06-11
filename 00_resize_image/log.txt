@@ -1,0 +1,962 @@
+____________________________________________________________
+____________________________________________________________
+____________________________________________________________
+____________________________________________________________
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+____________________________________________________________
+____________________________________________________________
+____________________________________________________________
+____________________________________________________________
+____________________________________________________________
+____________________________________________________________
+{'path': None, 'width': None, 'image_data': None, 'pos': None}
+Skip logo <common.LogoData object at 0x000001DD9EDE0710>
+{'path': None, 'width': None, 'image_data': None, 'pos': None}
+Skip logo <common.LogoData object at 0x000001DD9EDE0750>
+{'path': None, 'width': None, 'image_data': None, 'pos': None}
+Skip logo <common.LogoData object at 0x000001DD9EDE0790>
+{'path': None, 'width': None, 'image_data': None, 'pos': None}
+Skip logo <common.LogoData object at 0x000001DD9EDE0710>
+{'path': 'E:/Learning/00_Git/01_Tools/00_resize_image/resize_img/logo/yody.png', 'width': 150, 'image_data': None, 'pos': 0}
+{'path': None, 'width': None, 'image_data': None, 'pos': None}
+Skip logo <common.LogoData object at 0x000001DDA05A3910>
+____________________________________________________________
+____________________________________________________________
+____________________________________________________________
+____________________________________________________________
+____________________________________________________________
+____________________________________________________________
+____________________________________________________________
+{'path': 'E:/Learning/00_Git/01_Tools/00_resize_image/resize_img/logo/yody.png', 'width': 150, 'image_data': None, 'pos': 0}
+{'path': None, 'width': None, 'image_data': None, 'pos': None}
+Skip logo <common.LogoData object at 0x0000020B011E0410>
+{'path': 'E:/Learning/00_Git/01_Tools/00_resize_image/resize_img/logo/yody.png', 'width': 150, 'image_data': None, 'pos': 0}
+{'path': None, 'width': None, 'image_data': None, 'pos': None}
+Skip logo <common.LogoData object at 0x0000020B01BAF650>
+[SKIP] [WinError 3] The system cannot find the path specified: 'E:/Learning/00_Git/01_Tools/00_resize_image/resize_img/OUT'
+{'path': 'E:/Learning/00_Git/01_Tools/00_resize_image/resize_img/logo/yody.png', 'width': 150, 'image_data': None, 'pos': 0}
+{'path': None, 'width': None, 'image_data': None, 'pos': None}
+Skip logo <common.LogoData object at 0x0000020B01BAF350>
+{'path': 'E:/Learning/00_Git/01_Tools/00_resize_image/resize_img/logo/yody.png', 'width': 150, 'image_data': None, 'pos': 0}
+{'path': None, 'width': None, 'image_data': None, 'pos': None}
+Skip logo <common.LogoData object at 0x0000020B7FE3A050>
+____________________________________________________________
+____________________________________________________________
+____________________________________________________________
+____________________________________________________________
+____________________________________________________________
+____________________________________________________________
+____________________________________________________________
+____________________________________________________________
+____________________________________________________________
+____________________________________________________________
+____________________________________________________________
+____________________________________________________________
+____________________________________________________________
+____________________________________________________________
+____________________________________________________________
+____________________________________________________________
+____________________________________________________________
+____________________________________________________________
+____________________________________________________________
+____________________________________________________________
+____________________________________________________________
+____________________________________________________________
+____________________________________________________________
+____________________________________________________________
+____________________________________________________________
+____________________________________________________________
+____________________________________________________________
+____________________________________________________________
+____________________________________________________________
+{'path': None, 'width': None, 'image_data': None, 'pos': None}
+Skip logo <common.LogoData object at 0x000002CDADD108D0>
+{'path': '', 'width': 150, 'image_data': None, 'pos': ''}
+Skip logo <common.LogoData object at 0x000002CDADC32D10>
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, False, True]
+[False, True, False]
+[False, False, True]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, False, True]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+{'path': None, 'width': None, 'image_data': None, 'pos': None}
+Skip logo <common.LogoData object at 0x000002CDADD108D0>
+{'path': '', 'width': 150, 'image_data': None, 'pos': ''}
+Skip logo <common.LogoData object at 0x000002CDADC32D10>
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, False, True]
+[False, True, False]
+[False, False, True]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, False, True]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+{'path': None, 'width': None, 'image_data': None, 'pos': None}
+Skip logo <common.LogoData object at 0x000002CDAF490750>
+{'path': '', 'width': 150, 'image_data': None, 'pos': ''}
+Skip logo <common.LogoData object at 0x000002CDADC32D10>
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, False, True]
+[False, True, False]
+[False, False, True]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, False, True]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+{'path': None, 'width': None, 'image_data': None, 'pos': None}
+Skip logo <common.LogoData object at 0x000002CDAF4BBC50>
+{'path': '', 'width': 150, 'image_data': None, 'pos': ''}
+Skip logo <common.LogoData object at 0x000002CDADC32D10>
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, False, True]
+[False, True, False]
+[False, False, True]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, False, True]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+{'path': None, 'width': None, 'image_data': None, 'pos': None}
+Skip logo <common.LogoData object at 0x000002CDADC5CD10>
+{'path': '', 'width': 150, 'image_data': None, 'pos': ''}
+Skip logo <common.LogoData object at 0x000002CDADC32D10>
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, False, True]
+[False, True, False]
+[False, False, True]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, False, True]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+{'path': None, 'width': None, 'image_data': None, 'pos': None}
+Skip logo <common.LogoData object at 0x000002CDADC5CD10>
+{'path': '', 'width': 150, 'image_data': None, 'pos': ''}
+Skip logo <common.LogoData object at 0x000002CDADC32D10>
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, False, True]
+[False, True, False]
+[False, False, True]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, False, True]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+{'path': None, 'width': None, 'image_data': None, 'pos': None}
+Skip logo <common.LogoData object at 0x000002CDAF4BBC50>
+{'path': '', 'width': 150, 'image_data': None, 'pos': ''}
+Skip logo <common.LogoData object at 0x000002CDADC32D10>
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, False, True]
+[False, True, False]
+[False, False, True]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, False, True]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+{'path': None, 'width': None, 'image_data': None, 'pos': None}
+Skip logo <common.LogoData object at 0x000002CDADC5CD10>
+{'path': '', 'width': 150, 'image_data': None, 'pos': ''}
+Skip logo <common.LogoData object at 0x000002CDADC32D10>
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, False, True]
+[False, True, False]
+[False, False, True]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, False, True]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+____________________________________________________________
+{'path': None, 'width': None, 'image_data': None, 'pos': None}
+Skip logo <common.LogoData object at 0x000001B8A5057B50>
+{'path': '', 'width': 150, 'image_data': None, 'pos': ''}
+Skip logo <common.LogoData object at 0x000001B8A4F83050>
+[False, True, False]
+[False, True, False]
+[True, False, False]
+[True, False, False]
+[True, False, False]
+[False, False, True]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[True, False, False]
+[False, False, True]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+____________________________________________________________
+[SKIP] [WinError 3] The system cannot find the path specified: 'E:/Learning/00_Git/01_Tools/00_resize_image/resize_img/OUT'
+{'path': None, 'width': None, 'image_data': None, 'pos': None}
+Skip logo <common.LogoData object at 0x00000203D21F7A90>
+{'path': '', 'width': 150, 'image_data': None, 'pos': ''}
+Skip logo <common.LogoData object at 0x00000203D2122E10>
+[False, True, False]
+[False, True, False]
+[True, False, False]
+[True, False, False]
+[True, False, False]
+[False, False, True]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[True, False, False]
+[False, False, True]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+____________________________________________________________
+111111111111111
+[SKIP] [WinError 3] The system cannot find the path specified: 'E:/Learning/00_Git/01_Tools/00_resize_image/resize_img/OUT'
+{'path': None, 'width': None, 'image_data': None, 'pos': None}
+Skip logo <common.LogoData object at 0x0000029FB5FB13D0>
+{'path': '', 'width': 150, 'image_data': None, 'pos': ''}
+Skip logo <common.LogoData object at 0x0000029FB5ED2AD0>
+[False, True, False]
+[False, True, False]
+[True, False, False]
+[True, False, False]
+[True, False, False]
+[False, False, True]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[True, False, False]
+[False, False, True]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+111111111111111
+{'path': None, 'width': None, 'image_data': None, 'pos': None}
+Skip logo <common.LogoData object at 0x0000029FB7760410>
+{'path': '', 'width': 150, 'image_data': None, 'pos': ''}
+Skip logo <common.LogoData object at 0x0000029FB5ED2AD0>
+[False, True, False]
+[False, True, False]
+[True, False, False]
+[True, False, False]
+[True, False, False]
+[False, False, True]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[True, False, False]
+[False, False, True]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+111111111111111
+{'path': None, 'width': None, 'image_data': None, 'pos': None}
+Skip logo <common.LogoData object at 0x0000029FB5EFCAD0>
+{'path': '', 'width': 150, 'image_data': None, 'pos': ''}
+Skip logo <common.LogoData object at 0x0000029FB5ED2AD0>
+[False, True, False]
+[False, True, False]
+[True, False, False]
+[True, False, False]
+[True, False, False]
+[False, False, True]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[True, False, False]
+[False, False, True]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+111111111111111
+{'path': None, 'width': None, 'image_data': None, 'pos': None}
+Skip logo <common.LogoData object at 0x0000029FB5EFCAD0>
+{'path': '', 'width': 150, 'image_data': None, 'pos': ''}
+Skip logo <common.LogoData object at 0x0000029FB5ED2AD0>
+[False, True, False]
+[False, True, False]
+[True, False, False]
+[True, False, False]
+[True, False, False]
+[False, False, True]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[True, False, False]
+[False, False, True]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+111111111111111
+{'path': None, 'width': None, 'image_data': None, 'pos': None}
+Skip logo <common.LogoData object at 0x0000029FB5FF2B50>
+{'path': '', 'width': 150, 'image_data': None, 'pos': ''}
+Skip logo <common.LogoData object at 0x0000029FB5ED2AD0>
+[False, True, False]
+[False, True, False]
+[True, False, False]
+[True, False, False]
+[True, False, False]
+[False, False, True]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[True, False, False]
+[False, False, True]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+111111111111111
+{'path': None, 'width': None, 'image_data': None, 'pos': None}
+Skip logo <common.LogoData object at 0x0000029FB5EFCAD0>
+{'path': '', 'width': 150, 'image_data': None, 'pos': ''}
+Skip logo <common.LogoData object at 0x0000029FB5ED2AD0>
+[False, True, False]
+[False, True, False]
+[True, False, False]
+[True, False, False]
+[True, False, False]
+[False, False, True]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[True, False, False]
+[False, False, True]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+111111111111111
+{'path': None, 'width': None, 'image_data': None, 'pos': None}
+Skip logo <common.LogoData object at 0x0000029FB5FF2B50>
+{'path': '', 'width': 150, 'image_data': None, 'pos': ''}
+Skip logo <common.LogoData object at 0x0000029FB5ED2AD0>
+[False, True, False]
+[False, True, False]
+[True, False, False]
+[True, False, False]
+[True, False, False]
+[False, False, True]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[True, False, False]
+[False, False, True]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+111111111111111
+{'path': None, 'width': None, 'image_data': None, 'pos': None}
+Skip logo <common.LogoData object at 0x0000029FB7760590>
+{'path': '', 'width': 150, 'image_data': None, 'pos': ''}
+Skip logo <common.LogoData object at 0x0000029FB5ED2AD0>
+[False, True, False]
+[False, True, False]
+[True, False, False]
+[True, False, False]
+[True, False, False]
+[False, False, True]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[True, False, False]
+[False, False, True]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+111111111111111
+{'path': None, 'width': None, 'image_data': None, 'pos': None}
+Skip logo <common.LogoData object at 0x0000029FB778BB50>
+{'path': '', 'width': 150, 'image_data': None, 'pos': ''}
+Skip logo <common.LogoData object at 0x0000029FB5ED2AD0>
+[False, True, False]
+[False, True, False]
+[True, False, False]
+[True, False, False]
+[True, False, False]
+[False, False, True]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[True, False, False]
+[False, False, True]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+111111111111111
+{'path': None, 'width': None, 'image_data': None, 'pos': None}
+Skip logo <common.LogoData object at 0x0000029FB778BB50>
+{'path': '', 'width': 150, 'image_data': None, 'pos': ''}
+Skip logo <common.LogoData object at 0x0000029FB5ED2AD0>
+[False, True, False]
+[False, True, False]
+[True, False, False]
+[True, False, False]
+[True, False, False]
+[False, False, True]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[True, False, False]
+[False, False, True]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+111111111111111
+{'path': None, 'width': None, 'image_data': None, 'pos': None}
+Skip logo <common.LogoData object at 0x0000029FB778BB50>
+{'path': '', 'width': 150, 'image_data': None, 'pos': ''}
+Skip logo <common.LogoData object at 0x0000029FB5ED2AD0>
+[False, True, False]
+[False, True, False]
+[True, False, False]
+[True, False, False]
+[True, False, False]
+[False, False, True]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[True, False, False]
+[False, False, True]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+111111111111111
+{'path': None, 'width': None, 'image_data': None, 'pos': None}
+Skip logo <common.LogoData object at 0x0000029FB778BB50>
+{'path': '', 'width': 150, 'image_data': None, 'pos': ''}
+Skip logo <common.LogoData object at 0x0000029FB5ED2AD0>
+[False, True, False]
+[False, True, False]
+[True, False, False]
+[True, False, False]
+[True, False, False]
+[False, False, True]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[True, False, False]
+[False, False, True]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+111111111111111
+{'path': None, 'width': None, 'image_data': None, 'pos': None}
+Skip logo <common.LogoData object at 0x0000029FB778BB50>
+{'path': '', 'width': 150, 'image_data': None, 'pos': ''}
+Skip logo <common.LogoData object at 0x0000029FB5ED2AD0>
+[False, True, False]
+[False, True, False]
+[True, False, False]
+[True, False, False]
+[True, False, False]
+[False, False, True]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[True, False, False]
+[False, False, True]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+111111111111111
+{'path': None, 'width': None, 'image_data': None, 'pos': None}
+Skip logo <common.LogoData object at 0x0000029FB778BB50>
+{'path': '', 'width': 150, 'image_data': None, 'pos': ''}
+Skip logo <common.LogoData object at 0x0000029FB5ED2AD0>
+[False, True, False]
+[False, True, False]
+[True, False, False]
+[True, False, False]
+[True, False, False]
+[False, False, True]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[True, False, False]
+[False, False, True]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+111111111111111
+{'path': None, 'width': None, 'image_data': None, 'pos': None}
+Skip logo <common.LogoData object at 0x0000029FB77B2A10>
+{'path': '', 'width': 150, 'image_data': None, 'pos': ''}
+Skip logo <common.LogoData object at 0x0000029FB5ED2AD0>
+[False, True, False]
+[False, True, False]
+[True, False, False]
+[True, False, False]
+[True, False, False]
+[False, False, True]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[True, False, False]
+[False, False, True]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+____________________________________________________________
+____________________________________________________________
+____________________________________________________________
+111111111111111
+{'path': None, 'width': None, 'image_data': None, 'pos': None}
+Skip logo <common.LogoData object at 0x000001AE09D01410>
+{'path': '', 'width': 150, 'image_data': None, 'pos': ''}
+Skip logo <common.LogoData object at 0x000001AE09C22CD0>
+[False, True, False]
+[False, True, False]
+[True, False, False]
+[True, False, False]
+[True, False, False]
+[False, False, True]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[True, False, False]
+[False, False, True]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+111111111111111
+{'path': None, 'width': None, 'image_data': None, 'pos': None}
+Skip logo <common.LogoData object at 0x000001AE0B470610>
+{'path': '', 'width': 150, 'image_data': None, 'pos': ''}
+Skip logo <common.LogoData object at 0x000001AE09C22CD0>
+[False, True, False]
+[False, True, False]
+[True, False, False]
+[True, False, False]
+[True, False, False]
+[False, False, True]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[True, False, False]
+[False, False, True]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+111111111111111
+{'path': None, 'width': None, 'image_data': None, 'pos': None}
+Skip logo <common.LogoData object at 0x000001AE0B478ED0>
+{'path': '', 'width': 150, 'image_data': None, 'pos': ''}
+Skip logo <common.LogoData object at 0x000001AE09C22CD0>
+[False, True, False]
+[False, True, False]
+[True, False, False]
+[True, False, False]
+[True, False, False]
+[False, False, True]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[True, False, False]
+[False, False, True]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+111111111111111
+{'path': None, 'width': None, 'image_data': None, 'pos': None}
+Skip logo <common.LogoData object at 0x000001AE0B478ED0>
+{'path': '', 'width': 150, 'image_data': None, 'pos': ''}
+Skip logo <common.LogoData object at 0x000001AE09C22CD0>
+[False, True, False]
+[False, True, False]
+[True, False, False]
+[True, False, False]
+[True, False, False]
+[False, False, True]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[True, False, False]
+[False, False, True]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+111111111111111
+{'path': None, 'width': None, 'image_data': None, 'pos': None}
+Skip logo <common.LogoData object at 0x000001AE09C4CD10>
+{'path': '', 'width': 150, 'image_data': None, 'pos': ''}
+Skip logo <common.LogoData object at 0x000001AE09C22CD0>
+[False, True, False]
+[False, True, False]
+[True, False, False]
+[True, False, False]
+[True, False, False]
+[False, False, True]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[True, False, False]
+[False, False, True]
+[False, True, False]
+[False, True, False]
+[False, True, False]
+[False, True, False]
